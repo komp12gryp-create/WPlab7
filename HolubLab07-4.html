@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Замовлення товару</title>
+</head>
+<body>
+<h2>Завдання 3. Форма для заповнення замовлення на товар</h2>
+<form action="#">
+    <p>Номер банківського рахунку: <input type="text" name="account"></p>
+    <p>Особистий номер користувача: <input type="text" name="usernumber"></p>
+    <p>Товари:</p>
+    <select name="products" size="4" multiple>
+        <option value="keyboard">Клавіатура</option>
+        <option value="mouse">Миша</option>
+        <option value="monitor">Монітор</option>
+        <option value="headphones">Навушники</option>
+    </select>
+    <p>Коментарі:</p>
+    <textarea name="comments" rows="5" cols="40"></textarea>
+    <p>Вид оплати:</p>
+    <input type="radio" name="payment" value="cash"> Готівковий розрахунок<br>
+    <input type="radio" name="payment" value="cashless"> Безготівковий розрахунок
+    <p>Додаткова інформація:</p>
+    <input type="checkbox" name="balance" value="yes"> Дані про залишки на рахунку<br>
+    <input type="checkbox" name="payments" value="yes"> Список останніх виплат по рахунку
+    <p>
+        <input type="submit" value="Надіслати замовлення">
+        <input type="reset" value="Очистити форму">
+    </p>
+</form>
+</body>
+</html>

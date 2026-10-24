@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма з елементами HTML</title>
+</head>
+<body>
+<h2>Завдання 1. Форма з усіма вивченими елементами</h2>
+<form action="#">
+    <p>Ім'я: <input type="text" name="name"></p>
+    <p>Пароль: <input type="password" name="password"></p>
+    <p>Стать:
+        <input type="radio" name="gender" value="male"> Чоловіча
+        <input type="radio" name="gender" value="female"> Жіноча
+    </p>
+    <p>Навички:
+        <input type="checkbox" name="html" value="yes"> HTML
+        <input type="checkbox" name="css" value="yes"> CSS
+    </p>
+    <p>Курс:
+        <select name="course">
+            <option value="1">Перший</option>
+            <option value="2">Другий</option>
+            <option value="3">Третій</option>
+            <option value="4">Четвертий</option>
+        </select>
+    </p>
+    <p>Про себе:</p>
+    <textarea name="about" rows="5" cols="40"></textarea>
+    <p>Прикріпити файл: <input type="file" name="file"></p>
+    <p><input type="button" value="Звичайна кнопка"></p>
+    <p>
+        <input type="submit" value="Відправити">
+        <input type="reset" value="Очистити">
+    </p>
+</form>
+</body>
+</html>
